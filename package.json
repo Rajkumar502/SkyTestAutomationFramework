@@ -1,5 +1,5 @@
 {
-  "name": "Sky Test Automation Framework",
+  "name": "SkyTestAutomationFramework",
   "version": "1.0.0",
   "description": "A complete E2E POM Testing Framework with WDIO v6",
   "scripts": {
