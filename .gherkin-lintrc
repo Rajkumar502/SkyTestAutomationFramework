@@ -1,0 +1,31 @@
+{
+  "indentation" : [
+    "on", {
+      "Feature": 0,
+      "Background": 2,
+      "Scenario": 2,
+      "Step": 4,
+      "Examples": 4,
+      "example": 2,
+      "given": 4,
+      "when": 4,
+      "then": 4,
+      "and": 4,
+      "but": 4
+    }
+  ],
+  "new-line-at-eof": ["on", "yes"],
+  "allowed-tags": ["on", {"tags": ["@dealList", "@invalidsigin","@search","@deals"]}],
+  "no-files-without-scenarios" : "on",
+  "no-multiple-empty-lines" : "on",
+  "no-trailing-spaces" : "on",
+  "no-unnamed-features" : "on",
+  "no-unnamed-scenarios" : "on",
+  "no-dupe-feature-names" : "on",
+  "no-dupe-scenario-names" : "on",
+  "no-duplicate-tags" : "on",
+  "no-unused-variables" : "on",
+  "no-superfluous-tags" : "on",
+  "one-space-between-tags" : "on",
+  "max-scenarios-per-file": ["on", {"maxScenarios": 5}]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sky Test Automation Framework",
+  "version": "1.0.0",
+  "description": "A complete E2E POM Testing Framework with WDIO v6",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js",
+    "lint": "gherkin-lint . -c .gherkin-lintrc && eslint tests/config/*.js -c .eslintrc tests/features/e2e/step_definitions/*.js -c .eslintrc tests/pages/**/*.js -c .eslintrc tests/pages/*.js -c .eslintrc tests/screen/**/*.js"
+  },
+  "pre-commit": {
+    "run": "lint"
+  },
+  "author": "RajKumar Velusamy",
+  "email":"rajbeetz502@gmail.com",
+  "devDependencies": {
+    "@applitools/eyes-webdriverio": "^5.34.3",
+    "@rpii/wdio-html-reporter": "0.8.6",
+    "@wdio/cli": "6.0.13",
+    "@wdio/cucumber-framework": "6.0.13",
+    "@wdio/local-runner": "6.0.13",
+    "@wdio/spec-reporter": "5.22.4",
+    "@wdio/sync": "6.0.12",
+    "chromedriver": "80.0.2",
+    "cucumber-html-reporter": "5.2.0",
+    "eslint": "^6.8.0",
+    "selenium-standalone": "6.17.0",
+    "wdio-cucumber-parallel-execution": "^3.6.7",
+    "wdio-cucumberjs-json-reporter": "1.2.0"
+  },
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "gherkin-lint": "^4.2.2"
+  }
+}

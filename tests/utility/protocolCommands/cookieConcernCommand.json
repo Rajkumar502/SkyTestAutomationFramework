@@ -1,0 +1,21 @@
+{
+    "jsonWireActions":[
+        "setValue",
+        "click",
+        "isExisting",
+        "selectByAttribute",
+        "getUrl",
+        "isVisible",
+        "refresh",
+        "waitForExist",
+        "getAttribute",
+        "selectByVisibleText",
+        "selectByIndex",
+        "clearValue",
+        "isEnabled",
+        "waitForEnabled",
+        "waitForDiappear",
+        "scroll",
+        "waitUntill"
+    ]
+}

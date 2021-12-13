@@ -1,0 +1,3 @@
+DataType,LoginName,LoginPassword
+invalid,raj@gmail.com,12345
+valid,raj@yahoo.com,98765
